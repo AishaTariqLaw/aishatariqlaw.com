@@ -8,7 +8,7 @@
 
   <meta
     name="description"
-    content="Law Office of Aisha Tariq Professional Corporation. Criminal law, bail hearings, immigration appeals, wills, powers of attorney, estates and trusts."
+    content="Law Office of Aisha Tariq Professional Corporation. Legal services in criminal law, immigration appeals, wills, powers of attorney, estates and trusts."
   >
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,7 +40,7 @@
       font-family: "Inter", sans-serif;
       color: var(--text);
       background: var(--white);
-      line-height: 1.7;
+      line-height: 1.75;
     }
 
     a {
@@ -88,15 +88,15 @@
 
     .brand-name {
       font-family: "Libre Baskerville", serif;
-      font-size: 16px;
-      line-height: 1.35;
-      max-width: 320px;
+      font-size: 15px;
+      line-height: 1.4;
+      max-width: 330px;
     }
 
     nav {
       display: flex;
       align-items: center;
-      gap: 28px;
+      gap: 27px;
       font-size: 14px;
     }
 
@@ -122,11 +122,11 @@
     /* HERO */
 
     .hero {
-      padding: 120px 0 110px;
+      padding: 115px 0 105px;
     }
 
     .hero-content {
-      max-width: 820px;
+      max-width: 850px;
     }
 
     .eyebrow {
@@ -135,29 +135,35 @@
       letter-spacing: 2px;
       font-size: 12px;
       font-weight: 600;
-      margin-bottom: 24px;
+      margin-bottom: 22px;
     }
 
     h1 {
       font-family: "Libre Baskerville", serif;
-      font-size: clamp(43px, 6vw, 72px);
+      font-size: clamp(40px, 5vw, 64px);
       font-weight: 400;
-      line-height: 1.15;
-      letter-spacing: -1.5px;
+      line-height: 1.18;
+      letter-spacing: -1px;
       margin-bottom: 28px;
     }
 
     .hero p {
-      max-width: 680px;
+      max-width: 790px;
       color: var(--muted);
-      font-size: 18px;
-      margin-bottom: 38px;
+      font-size: 17px;
+      margin-bottom: 22px;
+    }
+
+    .hero-practice {
+      color: var(--text) !important;
+      margin-top: 24px;
     }
 
     .buttons {
       display: flex;
       gap: 14px;
       flex-wrap: wrap;
+      margin-top: 38px;
     }
 
     .button {
@@ -186,71 +192,72 @@
       color: var(--red);
     }
 
-    /* BAIL FEATURE */
+    /* SECTION */
 
-    .bail-section {
-      background: var(--red);
-      color: white;
-      padding: 70px 0;
+    .section {
+      padding: 100px 0;
     }
 
-    .bail-grid {
-      display: grid;
-      grid-template-columns: 1fr 1.5fr;
-      gap: 80px;
-      align-items: center;
+    .section-soft {
+      background: var(--soft);
     }
 
-    .bail-label {
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      font-size: 12px;
-      opacity: .8;
-    }
-
-    .bail-section h2 {
-      font-family: "Libre Baskerville", serif;
-      font-size: clamp(32px, 4vw, 46px);
-      font-weight: 400;
-      margin-bottom: 20px;
-    }
-
-    .bail-section p {
-      color: rgba(255,255,255,.85);
-      max-width: 650px;
-    }
-
-    .bail-link {
-      display: inline-block;
-      margin-top: 25px;
-      border-bottom: 1px solid white;
-      padding-bottom: 3px;
-    }
-
-    /* PRACTICE */
-
-    .practice {
-      padding: 105px 0;
-    }
-
-    .section-heading {
-      margin-bottom: 55px;
-      max-width: 650px;
-    }
-
-    .section-heading span {
+    .section-label {
       color: var(--red);
       text-transform: uppercase;
       letter-spacing: 2px;
       font-size: 12px;
       font-weight: 600;
+      margin-bottom: 15px;
     }
 
-    .section-heading h2 {
+    .section-title {
       font-family: "Libre Baskerville", serif;
       font-size: 38px;
       font-weight: 400;
-      margin-top: 12px;
+      margin-bottom: 25px;
+    }
+
+    /* ABOUT */
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: .8fr 1.5fr;
+      gap: 90px;
+    }
+
+    .about-name {
+      font-family: "Libre Baskerville", serif;
+      font-size: 33px;
+      font-weight: 400;
+      margin-bottom: 5px;
+    }
+
+    .about-title {
+      color: var(--red);
+      font-size: 14px;
+    }
+
+    .about-copy p {
+      color: var(--muted);
+      margin-bottom: 18px;
+      max-width: 700px;
+    }
+
+    .text-link {
+      display: inline-block;
+      color: var(--red);
+      margin-top: 8px;
+      border-bottom: 1px solid var(--red);
+      padding-bottom: 2px;
+    }
+
+    /* PRACTICE AREAS */
+
+    .practice-intro {
+      max-width: 790px;
+      color: var(--muted);
+      margin-bottom: 55px;
     }
 
     .practice-grid {
@@ -260,7 +267,7 @@
     }
 
     .practice-item {
-      padding: 35px 35px 35px 0;
+      padding: 36px 35px 36px 0;
       border-bottom: 1px solid var(--border);
       margin-right: 35px;
     }
@@ -269,70 +276,44 @@
       font-family: "Libre Baskerville", serif;
       font-size: 20px;
       font-weight: 400;
-      margin-bottom: 10px;
+      margin-bottom: 12px;
     }
 
     .practice-item p {
       color: var(--muted);
       font-size: 14px;
-    }
-
-    /* INTRO */
-
-    .intro {
-      background: var(--soft);
-      padding: 95px 0;
-    }
-
-    .intro-grid {
-      display: grid;
-      grid-template-columns: .8fr 1.5fr;
-      gap: 90px;
-    }
-
-    .intro h2 {
-      font-family: "Libre Baskerville", serif;
-      font-size: 34px;
-      font-weight: 400;
-    }
-
-    .intro p {
-      color: var(--muted);
-      margin-bottom: 18px;
-      max-width: 670px;
+      line-height: 1.7;
     }
 
     /* CONTACT */
 
-    .contact-strip {
-      padding: 80px 0;
+    .contact {
+      border-top: 1px solid var(--border);
     }
 
     .contact-inner {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 40px;
+      gap: 50px;
     }
 
-    .contact-strip h2 {
-      font-family: "Libre Baskerville", serif;
-      font-size: 32px;
-      font-weight: 400;
-      margin-bottom: 8px;
+    .contact-copy {
+      max-width: 700px;
     }
 
-    .contact-strip p {
+    .contact-copy p {
       color: var(--muted);
+      margin-top: 15px;
     }
 
     /* FOOTER */
 
     footer {
-      border-top: 1px solid var(--border);
-      padding: 45px 0;
+      background: var(--red);
+      color: rgba(255,255,255,.78);
+      padding: 48px 0;
       font-size: 13px;
-      color: var(--muted);
     }
 
     .footer-inner {
@@ -343,24 +324,25 @@
     }
 
     .footer-name {
-      color: var(--text);
+      color: white;
       font-family: "Libre Baskerville", serif;
+      margin-bottom: 4px;
     }
 
     /* MOBILE */
 
     @media (max-width: 850px) {
-
       .nav {
         flex-direction: column;
         align-items: flex-start;
-        padding: 25px 0;
+        padding: 24px 0;
       }
 
       nav {
         width: 100%;
         overflow-x: auto;
         gap: 20px;
+        padding-bottom: 5px;
       }
 
       .nav-button {
@@ -368,24 +350,26 @@
       }
 
       .hero {
-        padding: 80px 0;
+        padding: 75px 0;
       }
 
-      .bail-grid,
-      .intro-grid {
+      .about-grid {
         grid-template-columns: 1fr;
-        gap: 30px;
+        gap: 35px;
       }
 
       .practice-grid {
         grid-template-columns: 1fr;
       }
 
-      .contact-inner {
-        align-items: flex-start;
-        flex-direction: column;
+      .practice-item {
+        margin-right: 0;
       }
 
+      .contact-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
     }
   </style>
 </head>
@@ -428,14 +412,22 @@
         <div class="eyebrow">Barrister & Solicitor</div>
 
         <h1>
-          Clear legal advice.<br>
-          Focused representation.
+          Law Office of Aisha Tariq<br>
+          Professional Corporation
         </h1>
 
         <p>
-          Law Office of Aisha Tariq Professional Corporation provides legal
-          services in criminal law, bail hearings, immigration appeals,
-          wills and powers of attorney, estates and trusts.
+          Legal matters can involve significant consequences, unfamiliar
+          procedures, and decisions that are difficult to navigate alone.
+          Legal counsel can help you understand the law that applies to your
+          circumstances, assess your options, and represent your interests
+          where representation is required.
+        </p>
+
+        <p class="hero-practice">
+          The Law Office of Aisha Tariq Professional Corporation provides
+          legal services in criminal law, immigration appeals, wills and
+          estates, and trusts.
         </p>
 
         <div class="buttons">
@@ -453,117 +445,125 @@
   </section>
 
 
-  <!-- BAIL HEARINGS -->
+  <!-- ABOUT -->
 
-  <section class="bail-section">
-    <div class="container bail-grid">
+  <section class="section section-soft">
+    <div class="container">
 
-      <div class="bail-label">
-        Priority Practice Area
+      <div class="section-label">About</div>
+
+      <div class="about-grid">
+
+        <div>
+          <h2 class="about-name">Aisha Tariq</h2>
+          <div class="about-title">Barrister and Solicitor in Ontario</div>
+        </div>
+
+        <div class="about-copy">
+
+          <p>
+            Aisha Tariq is a Barrister and Solicitor in Ontario and the
+            principal of the Law Office of Aisha Tariq Professional Corporation.
+          </p>
+
+          <p>
+            Her practice includes criminal and immigration matters, as well as
+            wills, powers of attorney, estates, and trusts.
+          </p>
+
+          <p>
+            Aisha's legal practice is grounded in the view that legal problems
+            should be approached as legal problems: by understanding the facts,
+            identifying the issues, considering the available options, and
+            applying the law to the circumstances at hand.
+          </p>
+
+          <p>
+            Her work includes both advocacy before courts and administrative
+            bodies and legal drafting and planning outside of the courtroom.
+          </p>
+
+          <a href="about.html" class="text-link">
+            More About Aisha →
+          </a>
+
+        </div>
+
       </div>
-
-      <div>
-        <h2>Bail Hearings</h2>
-
-        <p>
-          Representation for individuals seeking release from custody,
-          including preparation for bail hearings and assistance throughout
-          the bail process.
-        </p>
-
-        <a href="contact.html" class="bail-link">
-          Contact the office regarding a bail matter →
-        </a>
-      </div>
-
     </div>
   </section>
 
 
   <!-- PRACTICE AREAS -->
 
-  <section class="practice">
+  <section class="section">
     <div class="container">
 
-      <div class="section-heading">
-        <span>Legal Services</span>
-        <h2>Practice Areas</h2>
-      </div>
+      <div class="section-label">Legal Services</div>
+      <h2 class="section-title">Practice Areas</h2>
+
+      <p class="practice-intro">
+        Legal issues often involve more than knowing what the law says.
+        The applicable procedure, deadlines, evidence, documents, and available
+        remedies can materially affect how a matter proceeds. Legal counsel can
+        assist with these issues and, where appropriate, act on a client's behalf.
+      </p>
 
       <div class="practice-grid">
 
         <div class="practice-item">
           <h3>Bail Hearings</h3>
           <p>
-            Representation and preparation for bail proceedings.
+            Assistance with the bail process, court submissions, and proposed
+            terms of release.
           </p>
         </div>
 
         <div class="practice-item">
           <h3>Criminal Law</h3>
           <p>
-            Legal advice and representation in criminal matters.
+            Advice regarding criminal allegations, available options, court
+            procedure, and representation throughout the proceedings.
           </p>
         </div>
 
         <div class="practice-item">
           <h3>Immigration Appeals</h3>
           <p>
-            Representation in immigration appeal matters.
+            Assistance with immigration appeal proceedings and the applicable
+            statutory and procedural requirements.
           </p>
         </div>
 
         <div class="practice-item">
           <h3>Wills & Powers of Attorney</h3>
           <p>
-            Preparation of wills and powers of attorney.
+            Preparation of wills and powers of attorney intended to clearly
+            reflect a client's wishes and circumstances.
           </p>
         </div>
 
         <div class="practice-item">
           <h3>Estates</h3>
           <p>
-            Legal services relating to estate matters.
+            Assistance with estate administration, related legal requirements,
+            and disputes that may arise.
           </p>
         </div>
 
         <div class="practice-item">
           <h3>Trusts</h3>
           <p>
-            Legal assistance concerning trust matters.
+            Assistance with the creation, interpretation, and administration
+            of trusts.
           </p>
         </div>
 
       </div>
 
-    </div>
-  </section>
-
-
-  <!-- ABOUT -->
-
-  <section class="intro">
-    <div class="container intro-grid">
-
-      <div>
-        <h2>Aisha Tariq</h2>
-      </div>
-
-      <div>
-        <p>
-          Aisha Tariq is a barrister and solicitor providing legal services
-          through the Law Office of Aisha Tariq Professional Corporation.
-        </p>
-
-        <p>
-          The office is committed to providing clients with clear,
-          straightforward legal advice and individualized representation.
-        </p>
-
-        <a href="about.html" class="bail-link" style="color:#781c2e; border-color:#781c2e;">
-          About the lawyer →
-        </a>
-      </div>
+      <a href="practice-areas.html" class="text-link" style="margin-top: 35px;">
+        Learn More About Practice Areas →
+      </a>
 
     </div>
   </section>
@@ -571,23 +571,30 @@
 
   <!-- CONTACT -->
 
-  <section class="contact-strip">
+  <section class="section section-soft contact">
     <div class="container contact-inner">
 
-      <div>
-        <h2>Speak with the office.</h2>
+      <div class="contact-copy">
+        <div class="section-label">Contact</div>
+
+        <h2 class="section-title" style="margin-bottom:0;">
+          Book an Appointment
+        </h2>
+
         <p>
-          Contact the Law Office of Aisha Tariq Professional Corporation.
+          If you have a legal matter and are considering whether you need legal
+          representation or advice, contact the office to arrange an appointment.
+        </p>
+
+        <p>
+          During an initial consultation, the circumstances of the matter can
+          be discussed and the appropriate next steps considered.
         </p>
       </div>
 
-      <div class="buttons">
-        <a href="tel:+14372480425" class="button button-secondary">
-          437-248-0425
-        </a>
-
-        <a href="mailto:info@aishatariqlaw.com" class="button button-primary">
-          Email the Office
+      <div>
+        <a href="appointments.html" class="button button-primary">
+          Book an Appointment
         </a>
       </div>
 
@@ -604,13 +611,17 @@
       <div class="footer-name">
         Law Office of Aisha Tariq Professional Corporation
       </div>
-
       <div>Barrister & Solicitor</div>
     </div>
 
     <div>
-      info@aishatariqlaw.com<br>
-      437-248-0425
+      <a href="mailto:info@aishatariqlaw.com">
+        info@aishatariqlaw.com
+      </a>
+      <br>
+      <a href="tel:+14372480425">
+        437-248-0425
+      </a>
     </div>
 
     <div>
